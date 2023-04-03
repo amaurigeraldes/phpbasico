@@ -10,8 +10,9 @@
     <?php
         $x = "abc";
         $$x = "def";
-        echo "O conteudo da variavel X e $x";
-        echo "<br/>A variavel ABC criada recebeu o valor $abc";
+
+        echo "O conteúdo da Variável x é $x;";
+        echo "<br/>A Variável 'abc' criada recebeu o valor $abc;";
     ?>
 </div>
 </body>

@@ -9,10 +9,21 @@
 <div>
     <?php
         $a = 3;
-        $b = &$a;
+        $b = $a;
         $b += 5;
-        echo "A variavel A vale $a";
-        echo "<br/>A variavel B vale $b";
+
+        echo "A variável A vale $a;";
+        echo "<br/>A variável B vale $b;";
+
+        echo "<hr>";
+
+        $a = 3;
+        $b = &$a; # Referenciando a Variável $a à Variável $b
+        $b += 5;
+
+        echo "A variável A vale $a;";
+        echo "<br/>A variável B vale $b;";
+
     ?>
 </div>
 </body>
