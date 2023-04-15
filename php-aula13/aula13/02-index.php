@@ -7,15 +7,21 @@
 </head>
 <body>
 <div>
+    <h1>Criando uma Tabuada</h1>
     <form method="get" action="02-tabuada.php">
+        Tabuada do número:
         <select name="num">
+
             <?php
-                for ($c=1; $c<=10; $c++) {
+                for ($c = 1; $c <= 25; $c++) {
                     echo "<option>$c</option>";
                 }
             ?>
-        </select>
-        <input type="submit" value="Tabuada"/>
+        
+    </select>
+        <br>
+        <input type="submit" value="Enviar" class="botao">
+        <input type="reset" value="Limpar" class="botao">
     </form>
 </div>
 </body>
